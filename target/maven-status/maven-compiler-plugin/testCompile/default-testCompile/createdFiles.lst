@@ -1,0 +1,7 @@
+com\wb\pages\LoginPage.class
+com\wb\pages\AmendPage.class
+com\wb\runners\TestRunner.class
+com\wb\pages\CommonPages.class
+com\wb\framework\DriverAndBrowserFactory.class
+com\wb\pages\Dashboard.class
+com\wb\steps\TestStepDefinition.class

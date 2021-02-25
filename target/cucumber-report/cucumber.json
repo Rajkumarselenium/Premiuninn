@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-24T14:16:09.161Z",
+        "line": 14,
+        "name": "Search for a hotel room and save",
+        "description": "",
+        "id": "premier-inn-application;search-for-a-hotel-room-and-save;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Load the page www.premierinn.com",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "In the home page, click on manage booking",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Load the booking details booking reference AKTR278839, lastname Tester, arrivaldate \u002721-May-2021\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "In the booking informatcion page, click on Amend booking",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1998900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "In the Amend booking page, change the arrival date to a \u002722-May-2021\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Capture the information in the Rooms available \u002722-May-2021\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Write the information capture to a csv file",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T14:16:09.329Z",
+        "line": 15,
+        "name": "Search for a hotel room and save",
+        "description": "",
+        "id": "premier-inn-application;search-for-a-hotel-room-and-save;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Load the page www.premierinn.com",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "In the home page, click on manage booking",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Load the booking details booking reference BBDR182669, lastname Tester, arrivaldate \u002721-May-2021\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "In the booking informatcion page, click on Amend booking",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "In the Amend booking page, change the arrival date to a \u002723-May-2021\u0027",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Capture the information in the Rooms available \u002723-May-2021\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Write the information capture to a csv file",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Premier inn Application",
+    "description": "",
+    "id": "premier-inn-application",
+    "keyword": "Feature",
+    "uri": "classpath:features/TestScenario1.feature",
+    "tags": []
+  }
+]
